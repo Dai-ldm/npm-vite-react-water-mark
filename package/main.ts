@@ -1,0 +1,1 @@
+export { default as DaiWaterMarker } from './Watermark'

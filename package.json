@@ -1,0 +1,44 @@
+{
+  "name": "react-vite-water-marker",
+  "private": false,
+  "version": "0.0.3",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.0",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/uuid": "^8.3.4",
+    "@vitejs/plugin-react": "^2.1.0",
+    "path": "^0.12.7",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.0",
+    "vite-plugin-dts": "^1.6.6"
+  },
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "repository": "",
+  "main": "./lib/react-vite-water-marker.umd.js",
+  "module": "./lib/react-vite-water-marker.js",
+  "types": "./lib/package/main.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/react-vite-water-marker.js",
+      "require": "./lib/react-vite-water-marker.umd.js"
+    }
+  }
+}
